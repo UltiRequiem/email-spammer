@@ -3,8 +3,9 @@ from email.mime.text import MIMEText
 from time import sleep
 from random import randint
 
-username =  str(input('Type your email: ')) 
-password = str(input("Type your password: "))
+login = open("login.txt", "r").read().split() 
+username = login[0]
+password = login[1]
 
 def start_server():
     server = smtplib.SMTP('smtp.gmail.com')
