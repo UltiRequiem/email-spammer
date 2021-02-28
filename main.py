@@ -14,9 +14,9 @@ def start_server():
     return server
 
 def send_emails(server):
-    emails = "".join(open("victims.txt", "r").read().split()) 
+    emails = "".join(open("receivers.txt", "r").read().split()) 
     for email in range(100):
-        #print(str(email) + ' emails have been sent.') 
+        print(str(email) + ' emails have been sent.') 
         msg = MIMEText("This is a cool message.If you want revenge here is how: https://github.com/UltiRequiem/gmail-spammer")
         msg['Subject'] = 'Cool Spam ' + str(randint(1, 1000)) 
         msg['From'] = username
