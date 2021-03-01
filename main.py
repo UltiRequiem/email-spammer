@@ -5,8 +5,8 @@ port = 465
 smtp_server = "smtp.gmail.com"
 
 sender_email = str(input('Type your email: '))  
-receiver_email = input('Type the email of the receiver: ')
-password = input("Type your password and press enter: ")
+receiver_email = str(input('Type the email of the receiver: '))
+password = str(input("Type your password and press enter: "))
 
 subject = str(input('Subject: '))
 subject = 'Subject: ' + subject
