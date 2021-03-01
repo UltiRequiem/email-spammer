@@ -1,1 +1,1 @@
-firstcoolmail@gmail.com , examplemail@gmail.com ,yourmail@gmail.com
+firstcoolmail@gmail.com examplemail@gmail.com yourmail@gmail.com
